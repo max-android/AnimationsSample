@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <Button
+            android:text="@string/anim_alpha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/alphaButton"/>
+    <Button
+            android:text="@string/anim_combo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/comboButton"/>
+    <Button
+            android:text="@string/anim_rotate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/rotateButton"/>
+    <Button
+            android:text="@string/anim_scale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/scaleButton"/>
+    <Button
+            android:text="@string/anim_trans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/transButton"/>
+    <ImageView
+            android:id="@+id/sAnimImageView"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            app:srcCompat="@drawable/ic_android" />
+
+    <Button
+            android:id="@+id/pulsationButton"
+            android:text="@string/pulsation_sample"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    <ImageButton
+            android:id="@+id/pulsationImageButton"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/form_image_button"
+            android:foreground="?selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_power_settings"/>
+
+    <Button
+            android:id="@+id/trembleButton"
+            android:text="@string/tremble_sample"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    <Button
+            android:id="@+id/slideButton"
+            android:text="@string/slide_sample"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+</LinearLayout>

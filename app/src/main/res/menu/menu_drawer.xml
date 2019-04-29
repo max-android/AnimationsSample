@@ -1,0 +1,47 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <item
+            android:id="@+id/simple_anim"
+            android:title="@string/simple_anim"/>
+    <item
+            android:id="@+id/base_anim"
+            android:title="@string/base_anim"/>
+
+    <item
+            android:id="@+id/layout_anim"
+            android:title="@string/layout_anim_sample"/>
+
+    <item
+            android:id="@+id/ad_anim"
+            android:title="@string/ad_anim_sample"/>
+
+    <item
+            android:id="@+id/avd_anim"
+            android:title="@string/avd_sample"/>
+
+    <item
+            android:id="@+id/gif_anim"
+            android:title="@string/gif_sample"/>
+
+    <item
+            android:id="@+id/glide_anim"
+            android:title="@string/glide_anim_sample"/>
+
+    <item
+            android:id="@+id/ripple_anim"
+            android:title="@string/ripple_anim_sample"/>
+
+    <item
+            android:id="@+id/sample_transition"
+            android:title="@string/transitions_framework"/>
+    <item
+            android:id="@+id/circular_spring_anim"
+            android:title="@string/circular_spring_animation"/>
+    <item
+            android:id="@+id/element_transition_anim"
+            android:title="@string/element_transition"/>
+
+</menu>
+

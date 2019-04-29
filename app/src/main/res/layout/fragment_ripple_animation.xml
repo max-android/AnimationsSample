@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:padding="16dp"
+              android:background="@color/background"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <Button
+            android:id="@+id/rippleButton"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@drawable/bg_default_button"
+            android:fontFamily="@font/roboto_medium"
+            android:foreground="?selectableItemBackground"
+            android:text="@string/ripplebutton"
+            android:textColor="@color/white"
+            android:textSize="14sp"/>
+    <TextView
+            android:id="@+id/rippleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="24dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?selectableItemBackground"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center"
+            android:text="@string/rippletextview"
+            android:textAllCaps="true"
+            android:textColor="@color/selector_default_link_button"
+            android:textSize="16sp"/>
+</LinearLayout>
+
+        <!--android:foreground="?attr/selectableItemBackgroundBorderless"-->

@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="image_size_collapsed">24dp</dimen>
+    <dimen name="image_size_expanded">200dp</dimen>
+</resources>

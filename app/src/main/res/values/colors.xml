@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#FFFFFF</color>
+    <color name="defaultButtonNormalColor">#008b00</color>
+    <color name="defaultButtonPressedColor">#90ee02</color>
+    <color name="defaultButtonDisabledColor">#61d800</color>
+    <color name="defaultLinkButtonPressedColor">#0000e4</color>
+    <color name="defaultLinkButtonNormalColor">#714cfe</color>
+    <color name="defaultLinkButtonDisabledColor">#3722f6</color>
+    <color name="background">#FFDE03</color>
+    <color name="defaultNormalColor"> #e54304</color>
+    <color name="defaultPressedColor">#ff9e22</color>
+    <color name="defaultDisabledColor">#fa8100</color>
+    <color name="background_color">#90A4AE</color>
+    <color name="colorScreen">#FFFFFF</color>
+</resources>

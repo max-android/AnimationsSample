@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<LinearLayout
+        android:id="@+id/baseAnimLinearLayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+            android:text="@string/start_scale_animation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/scaleAnimButton"/>
+    <Button
+            android:text="@string/start_animate_layout_changes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/lChangeAnimButton"/>
+
+    <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true">
+        <ImageView
+                android:id="@+id/frameImageView"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:visibility="gone"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/ic_android"/>
+    </FrameLayout>
+
+
+    <Button
+            android:text="@string/start_animate_view_property"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/vPropertyAnimButton"/>
+
+    <ImageView
+            android:id="@+id/baseImageView"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_android"/>
+
+    <ImageButton
+            android:id="@+id/baseImageButton"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/form_image_button"
+            android:foreground="?selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_power_settings"/>
+
+    <Button
+            android:id="@+id/objectAnimButton"
+            android:text="@string/start_object_animator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <ImageButton
+            android:id="@+id/slImageButton"
+            android:stateListAnimator="@xml/animate_scale"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/bg_button"
+            android:foreground="?selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_power_settings"/>
+
+    <Button
+            android:id="@+id/hsvAnimButton"
+            android:text="@string/hsv_anim"
+            android:foreground="?selectableItemBackgroundBorderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>
+</ScrollView>

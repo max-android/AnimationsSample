@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">AnimationsSample</string>
+    <string name="simple_anim">Animations via XML</string>
+    <string name="base_anim">Base Animations</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">
+        android.support.design.widget.AppBarLayout$ScrollingViewBehavior
+    </string>
+    <string name="anim_alpha">show anim alpha</string>
+    <string name="anim_combo">show anim combo</string>
+    <string name="anim_rotate">show anim rotate</string>
+    <string name="anim_scale">show anim scale</string>
+    <string name="anim_trans">show anim trans</string>
+    <string name="start_scale_animation">sample ScaleAnimation</string>
+    <string name="start_animate_layout_changes">sample LayoutChanges</string>
+    <string name="start_animate_view_property">sample ViewPropertyAnimation</string>
+    <string name="start_animator">sample Animator</string>
+    <string name="transition_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+    </string>
+    <string name="transitions_framework">Transitions framework</string>
+    <string name="circular_spring_animation">Circular and Spring Animation</string>
+    <string name="circular_sample">Circular Animation Sample</string>
+    <string name="spring_sample">Spring Animation</string>
+    <string name="pulsation_sample">Pulsation Sample</string>
+    <string name="tremble_sample">Tremble Sample</string>
+    <string name="slide_sample">Slide Sample</string>
+    <string name="element_transition">Shared Element Transition Animation</string>
+    <string name="info">About android os</string>
+    <string name="gif_sample">Gif Animation</string>
+    <string name="start_object_animator">sample Object Animator</string>
+    <string name="change_scene">Change scene</string>
+    <string name="this_text_fades_in">This text fades in.</string>
+    <string name="avd_sample">Animated Vector Drawable</string>
+    <string name="start_avd">start Avd</string>
+    <string name="layout_anim_sample">Layout Animation</string>
+    <string name="glide_anim_sample">Glide Animation</string>
+    <string name="ripple_anim_sample">Ripple Animation</string>
+    <string name="ripplebutton">RippleButton</string>
+    <string name="rippletextview">RippleTextView</string>
+    <string name="fling_anim">Fling Animation</string>
+    <string name="ad_anim_sample">AnimationDrawable</string>
+    <string name="i_m_a_robot">I\'m a robot!</string>
+    <string name="hsv_anim">HSV animation</string>
+    <string name="flying_animation">Flying animation</string>
+    <string name="lottie_animation">Lottie Animations</string>
+
+</resources>
